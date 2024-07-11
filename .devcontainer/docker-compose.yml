@@ -1,0 +1,11 @@
+services:
+  brain-php: 
+    build: config/php/
+    working_dir: /app/www
+    volumes:
+      - ../:/app/www
+
+networks:
+  gateway:
+    external: true
+    name: gateway

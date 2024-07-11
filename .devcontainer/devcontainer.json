@@ -1,0 +1,23 @@
+{
+	"name": "brain-games",
+	"dockerComposeFile": ["docker-compose.yml"],
+	"service": "brain-php",
+	"workspaceFolder": "/app/www",
+
+	// Configure tool-specific properties.
+	 "customizations": {
+		"vscode": {
+			"extensions": [
+				"bmewburn.vscode-intelephense-client",
+				"shevaua.phpcs",
+				"getpsalm.psalm-vscode-plugin",
+				"ms-azuretools.vscode-docker",
+				"aswinkumar863.smarty-template-support",
+				//"eamodio.gitlens"
+			]
+		}
+	}
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
